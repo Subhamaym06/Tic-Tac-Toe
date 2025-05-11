@@ -29,7 +29,7 @@ A fully interactive Tic-Tac-Toe game. The game provides both single-player (play
 
 ## 🌐 Live Preview:
 
-You can view the live website here: [Tic-Tac-Toe Game](https://Subhamaym06.github.io/Tic-Tac-Toe/)
+You can view the live website here: [Tic-Tac-Toe Game](https://Subhamaym06.github.io/Tic-Tac-Toe/index.html)
 
 ---
 
