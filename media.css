@@ -1,0 +1,482 @@
+/* =========================================
+   Media Query: Smaller Desktop Devices (≤ 1260px)
+   ========================================= */
+@media only screen and (max-width:1260px) {
+   /* Style for aside heading */
+   aside h2 {
+      font-family: "Itim", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 40px;
+      padding: 10px 50px;
+      text-align: center;
+      width: 20vw;
+      white-space: nowrap;
+      background-color: #FDA769;
+      border: 5px solid #473C33;
+      overflow: auto hidden;
+   }
+
+   /* Style for score section in aside */
+   aside .score {
+      font-family: "Goldman", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: xx-large;
+      padding: 10px 50px;
+      text-align: center;
+      width: 100%;
+      background-color: #EEEDED;
+      border: 5px solid #06202B;
+   }
+
+   /* Footer width and background */
+   footer {
+      width: 99vw;
+      padding: 0;
+      background-color: #c0bba8;
+   }
+}
+
+/* =========================================
+   Media Query: Tablet Devices (≤ 1061px)
+   ========================================= */
+@media only screen and (max-width:1061px) {
+   /* Reduced font size for aside heading */
+   aside h2 {
+      font-family: "Itim", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 30px;
+      padding: 10px 50px;
+      text-align: center;
+      width: 20vw;
+      white-space: nowrap;
+      background-color: #FDA769;
+      border: 5px solid #473C33;
+      overflow: auto hidden;
+   }
+
+   /* Padding adjusted for score box */
+   aside .score {
+      font-family: "Goldman", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: xx-large;
+      padding: 10px 20px;
+      text-align: center;
+      width: 100%;
+      background-color: #EEEDED;
+      border: 5px solid #06202B;
+   }
+
+   /* Main area repositioned */
+   main {
+      width: max-content;
+      grid-row-start: 1;
+      grid-column-start: 2;
+      position: relative;
+   }
+
+   /* Left section repositioned */
+   .left {
+      width: max-content;
+      grid-row-start: 2;
+      grid-column-start: 1;
+      position: relative;
+   }
+
+   /* Right section repositioned */
+   .right {
+      width: max-content;
+      grid-row-start: 2;
+      grid-column-start: 3;
+      position: relative;
+
+      /* Footer styling inside .right (possibly a mistake in nesting) */
+      footer {
+         width: 99vw;
+         padding: 0;
+         background-color: #c0bba8;
+      }
+   }
+
+   /* =========================================
+      Media Query: Tablet Devices (≤ 992px)
+      ========================================= */
+   @media only screen and (max-width:992px) {
+      /* Basic footer styling */
+      footer {
+         width: 99vw;
+         padding: 0;
+         background-color: #c0bba8;
+      }
+
+      /* Footer text styles */
+      footer .copyright,
+      .love {
+         font-family: "Itim", cursive;
+         font-weight: 500;
+         font-style: normal;
+         font-size: 25px;
+      }
+
+      /* Footer section headings */
+      footer .link .heading {
+         font-family: "Goldman", sans-serif;
+         font-weight: 300;
+         font-style: normal;
+         font-size: 20px;
+         text-decoration: double underline;
+      }
+
+      /* Footer link titles */
+      footer .link .title {
+         font-family: "Goldman", sans-serif;
+         font-weight: 400;
+         font-style: normal;
+         font-size: 15px;
+      }
+
+      /* Footer icons */
+      footer .link img {
+         height: 15px;
+         width: 15px;
+      }
+
+      /* Footer icon containers */
+      footer .icons div {
+         height: 30px;
+         width: 30px;
+         position: relative;
+      }
+
+      /* Icon section padding */
+      footer .icons {
+         padding: 10px 0px;
+      }
+
+      /* Icon labels */
+      footer .icons div div {
+         font-family: "Itim", cursive;
+         font-weight: 100;
+         font-style: normal;
+         font-size: 8px;
+         position: absolute;
+         top: 20px;
+         z-index: -1;
+         color: black;
+      }
+
+      /* Icon hover effect */
+      footer .icons>a>div:hover {
+         transform: scale(1.25);
+         z-index: 0;
+      }
+   }
+}
+
+/* =========================================
+   Media Query: Small Tablet Devices (≤ 735px)
+   ========================================= */
+@media only screen and (max-width:735px) {
+   /* Smaller heading in aside */
+   aside h2 {
+      font-family: "Itim", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 22px;
+      padding: 10px 5px;
+      text-align: center;
+      width: 20vw;
+      white-space: nowrap;
+      background-color: #FDA769;
+      border: 5px solid #473C33;
+      overflow: auto hidden;
+   }
+
+   /* Resize game box */
+   .box {
+      font-size: 4rem;
+      height: 20vmin;
+      width: 20vmin;
+      border: 2px solid black;
+      background-color: #FEC868;
+      font-family: "Itim", system-ui;
+      font-weight: 400;
+      font-style: normal;
+   }
+
+   /* Full width footer */
+   footer {
+      width: 99vw;
+      padding: 0;
+      background-color: #c0bba8;
+   }
+}
+
+/* =========================================
+   Media Query: Mobile Devices (≤ 564px)
+   ========================================= */
+@media only screen and (max-width:564px) {
+   /* Very small heading */
+   aside h2 {
+      font-family: "Itim", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 18px;
+      padding: 10px 2px;
+      text-align: center;
+      width: 20vw;
+      white-space: nowrap;
+      background-color: #FDA769;
+      border: 5px solid #473C33;
+      overflow: auto hidden;
+   }
+
+   /* Basic footer setup */
+   footer {
+      width: 99vw;
+      padding: 0;
+      background-color: #c0bba8;
+   }
+
+   /* Smaller footer text */
+   footer .copyright,
+   .love {
+      font-family: "Itim", cursive;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 15px;
+   }
+
+   /* Smaller footer headings */
+   footer .link .heading {
+      font-family: "Goldman", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 12px;
+      text-decoration: double underline;
+   }
+
+   /* Compact link titles */
+   footer .link .title {
+      font-family: "Goldman", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 10px;
+   }
+
+   /* Icon size unchanged */
+   footer .link img {
+      height: 15px;
+      width: 15px;
+   }
+
+   /* Footer icons layout */
+   footer .icons div {
+      height: 30px;
+      width: 30px;
+      position: relative;
+   }
+
+   /* Padding around icons */
+   footer .icons {
+      padding: 10px 0px;
+   }
+
+   /* Small label under icons */
+   footer .icons div div {
+      font-family: "Itim", cursive;
+      font-weight: 100;
+      font-style: normal;
+      font-size: 8px;
+      position: absolute;
+      top: 20px;
+      z-index: -1;
+      color: black;
+   }
+
+   /* Zoom effect on hover */
+   footer .icons>a>div:hover {
+      transform: scale(1.25);
+      z-index: 0;
+   }
+
+   /* Glow effects for social media icons */
+   footer #email:hover {
+      box-shadow: 0px 0px 6px 8px #d73f2e;
+   }
+
+   footer #whatsapp:hover {
+      box-shadow: 0px 0px 6px 8px #2ac758;
+   }
+
+   footer #linkedin:hover {
+      box-shadow: 0px 0px 6px 8px #0841d1;
+   }
+
+   footer #github:hover {
+      box-shadow: 0px 0px 6px 8px #ffffff;
+   }
+
+   footer #twitter:hover {
+      box-shadow: 0px 0px 6px 8px #797575;
+   }
+
+   footer #facebook:hover {
+      box-shadow: 0px 0px 6px 8px #1873eb;
+   }
+
+   footer #instagram:hover {
+      box-shadow: 0px 0px 6px 8px #f70961;
+   }
+
+   footer #telegram:hover {
+      box-shadow: 0px 0px 6px 8px #27a3e3;
+   }
+}
+
+/* =========================================
+   Media Query: Small Mobile Devices (≤ 466px)
+   ========================================= */
+@media only screen and (max-width:466px) {
+   /* Heading h1 styles */
+   h1 {
+      margin: 2rem;
+      font-family: "Goldman", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 3rem;
+      text-decoration: wavy underline;
+   }
+
+   /* Game grid styles */
+   .game {
+      width: 40vmin;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 10px 10px;
+      place-content: center;
+      place-items: center;
+   }
+
+   /* Smaller box style */
+   .box {
+      font-size: 2rem;
+      height: 15vmin;
+      width: 15vmin;
+      border: 2px solid black;
+      background-color: #FEC868;
+      font-family: "Itim", system-ui;
+      font-weight: 400;
+      font-style: normal;
+   }
+
+   /* Small aside heading */
+   aside h2 {
+      font-family: "Itim", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 18px;
+      padding: 10px 8px;
+      text-align: center;
+      width: 20vw;
+      white-space: nowrap;
+      background-color: #FDA769;
+      border: 5px solid #473C33;
+      overflow: auto hidden;
+   }
+
+   /* Control button adjustments */
+   .controls button {
+      padding: 10px;
+      font-family: "Goldman", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+      font-size: large;
+      width: 100%;
+      background-color: #26BAEE;
+      border: 3px solid #21209C;
+   }
+
+   /* Full width footer */
+   footer {
+      width: 99vw;
+      padding: 0;
+      background-color: #c0bba8;
+   }
+}
+
+/* =========================================
+   Media Query: Extra Small Mobile Devices (≤ 365px)
+   ========================================= */
+@media only screen and (max-width:365px) {
+   /* Extra small heading */
+   h1 {
+      margin: 2rem;
+      font-family: "Goldman", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1.5rem;
+      text-decoration: wavy underline;
+   }
+
+   /* Reduced game grid size */
+   .game {
+      width: 30vmin;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 10px 10px;
+      place-content: center;
+      place-items: center;
+   }
+
+   /* Smallest box style */
+   .box {
+      font-size: 1rrem; /* Likely a typo: should be 1rem */
+      height: 20vmin;
+      width: 20vmin;
+      border: 2px solid black;
+      background-color: #FEC868;
+      font-family: "Itim", system-ui;
+      font-weight: 400;
+      font-style: normal;
+   }
+
+   /* Tiny aside heading */
+   aside h2 {
+      font-family: "Itim", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 15px;
+      padding: 10px 5px;
+      text-align: center;
+      width: 20vw;
+      white-space: nowrap;
+      background-color: #FDA769;
+      border: 5px solid #473C33;
+      overflow: auto hidden;
+   }
+
+   /* Small control button */
+   .controls button {
+      padding: 5px;
+      font-family: "Goldman", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: small;
+      width: 100%;
+      background-color: #26BAEE;
+      border: 3px solid #21209C;
+   }
+
+   /* Footer styling */
+   footer {
+      width: 99vw;
+      padding: 0;
+      background-color: #c0bba8;
+   }
+}
