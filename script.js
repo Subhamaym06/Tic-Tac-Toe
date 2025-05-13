@@ -155,7 +155,6 @@ function startComputerGame(playerSymbol) {
         boxes.forEach((box, index) => {
             if (!box.disabled && box.textContent === "") {
                 availableIndices.push(index);
-                console.log(index)
             }
         });
         if (availableIndices.length === 0) return;
