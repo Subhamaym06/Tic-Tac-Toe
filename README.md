@@ -8,7 +8,7 @@ A fully interactive Tic-Tac-Toe game. The game provides both single-player (play
 
 ### Single Player Mode 🤖:
 1. Choose whether you want to play as "X" or "O".
-2. The game will automatically start, and the computer will take its turn after your move.
+2. The computer will automatically take its turn after your move.
 3. The computer makes random moves, making each game unique and unpredictable.
 
 ### Two Player Mode 👥:
