@@ -89,4 +89,3 @@ To get started with the Tic-Tac-Toe game locally, follow these steps:
     cd Tic-Tac-Toe
     ```
 3. Open the `index.html` file in your browser to play the game.
-
